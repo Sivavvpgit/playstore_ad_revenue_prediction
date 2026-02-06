@@ -1,4 +1,4 @@
-```
+
 name: Week 3 Practice
 
 on:
@@ -60,5 +60,3 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python week_3_practice/hosting/hosting.py
-
-```
